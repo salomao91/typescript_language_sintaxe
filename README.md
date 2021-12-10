@@ -15,14 +15,14 @@ Look at "basics.ts" file to read the typescript features sumarized.
 	// globally
 	npm install -g typescript
 
-// 3. compiling without a configuration file
+// 3.1 compiling without a configuration file
 	<br>// npx tsc <file_name>
 	<br>npx tsc with-typescript.ts
 
-// 3.1 to create a configuration file (Angular already create it out of the box, this command is not necessary)
+// 3.2 to create a configuration file (if uses Angular it already creates it out of the box and so this command will be not necessary)
 	<br>npx tsc --init
 
-// compiling, after configured the configuration file
+// 3.2.1 compiling, after configured the configuration file
 	<br>npx tsc
 
 // 4. after compiled, the compiler translate typescript code into javascript and so creates a .js file to run it on browser.
